@@ -1,0 +1,223 @@
+.first_half{
+	height: 24em;
+	background-color: #B2ADAD;
+	padding: 0;
+
+}
+
+
+p.email_instd{
+	color: #4F4949;
+	font-size: 1.3em;
+	font-weight: bold;
+
+
+}
+/*------------------------For Nav tab------------------------------------*/
+
+/*body {
+  padding : 10px ;
+  
+}
+*/
+#exTab1 .tab-content {
+  color : white;
+  background-color: #DFDFDF;
+  padding : 5px 15px;
+      border: 1px solid black;
+}
+
+#exTab2 h3 {
+  color : black;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+/*#exTab3 .tab-content {
+  background-color: #DFDFDF;
+  padding : 5px 15px;
+}*/
+
+.nav.nav-pills li{
+	padding: 1em 5em 1em 1em;
+    overflow: hidden;
+    transform: scaleY(-1);
+    color: black;
+    border-left: 1px solid black;
+	position: relative;
+	top:2px;
+	z-index: 0;
+}
+.nav.nav-pills li.active{
+	z-index: 99;
+}
+.nav.nav-pills li.active:after{
+border-top-color: transparent;
+    background-color: #DFDFDF;
+	}
+
+li:after{
+	    background: #B2ADAD;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border:solid 1px black;
+    transform: scaleY(-1);
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+    z-index:0;
+    
+}
+
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+    transform: scaleY(-1);
+    z-index: 111;
+}
+
+.tab-content.clearfix{
+	z-index: 9;
+	position: relative;
+}
+
+
+/*-------------------------------------*/
+
+div#exTab1{
+    position: relative;
+    top: 19.2em;
+    margin: 0;
+    width: 105%;
+}
+
+.nav {
+    margin-bottom: 1px;
+    padding-left: 55%;
+    list-style: none;
+}
+
+.nav>li>a{
+padding: 0px;	
+color: black;
+}
+
+
+
+
+/*-------------------------------------button------------------------------------*/
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.3), 0 3px 3px rgba(0, 0, 0, 0.15), 0 3px 2px -2px rgba(0, 0, 0, 0.2);
+	color: white;
+	font-size: 16px;
+	text-shadow: 0 -0.5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.button {
+	padding: 8px 16px;
+	border: 2px solid none;
+	border-radius: 5px;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	color: white;
+}
+
+.button.styl-material {
+	-webkit-transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+	transition: 200ms background cubic-bezier(0.5, 0, 0.4, 1);
+	background: #FCFCFC;
+	color: grey;
+}
+
+.button.styl-material:focus {
+	outline: none;
+	background: #EB9A33;
+	color: white;
+}
+
+
+.button.styl-material:hover{
+	background-color: #22aae2;
+	color: white;
+}
+
+.ripple-obj{
+	height: 100%;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	fill: #1c9cd1;
+}
+.ripple-obj1{
+	height: 100%;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	fill: #7c7d7d;
+}
+
+button.styl-material.btn1 {
+    /* color: rebeccapurple; */
+    margin-left: 41%;
+    margin-top: 2%;
+}
+
+/*------------------------------------Live Chat--------------------------------*/
+
+p.frst_para_lft{
+	    color: #A39F9F;
+    margin-top: 2em;
+    font-size: 13px;
+}
+
+.frst_lft_row{
+	margin-top: 6em;
+}
+
+
+.live_chat_box{
+	border: 1px solid #1F9CE7;
+    width: 76%;
+    height: 19.1em;
+    margin-top: .8em;
+    border-radius: 7px;
+
+}
+
+p.liv_cht{
+	    border: 1px solid none;
+    background: #1F9CE7;
+    text-align: center;
+    padding: 9px;
+    border-radius: 7.4px 7.4px 0px 0px;
+}

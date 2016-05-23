@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Help Widget</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12 col-sm-6 col-xs-6 first_half">
+            <div id="exTab1">
+                <ul class="nav nav-pills">
+                    <li class="active">
+                        <a href="#1a" data-toggle="tab">Overview</a>
+                    </li>
+                    <li><a href="#2a" data-toggle="tab">Using nav-pills</a>
+                    </li>
+                    <li><a href="#3a" data-toggle="tab">Applying clearfix</a>
+                    </li>
+                </ul>
+                <div class="tab-content clearfix">
+                    <div class="tab-pane active" id="1a">
+                        <div class="col-md-12 col-sm-12-col-xs-12">
+                            <div class="col-md-6 col-sm-12 col-xs-12 frst_lft_row">
+                                <p class="text-center email_instd">Prefer email instead? </p>
+                                <div style="height: 0; width: 0; position: absolute; visibility: hidden;" aria-hidden="true">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+                                        <symbol id="ripply-scott" viewBox="0 0 100 100">
+                                            <circle id="ripple-shape" cx="1" cy="1" r=".7" />
+                                        </symbol>
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <!-- button component -->
+                                    <button id="js-ripple-btn" class="button styl-material btn1">
+                                        Write to us
+                                        <svg class="ripple-obj" id="js-ripple">
+                                            <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <p class="text-center frst_para_lft">we are super quick in response to your queries </p>
+                            </div>
+
+
+                            <div class="col-md-6 col-sm-12 col-xs-12 frst_rit_row">
+                                <div class="live_chat_box">
+                                <p class="liv_cht">Live Chat</p>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="2a">
+                        <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
+                    </div>
+                    <div class="tab-pane" id="3a">
+                        <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+    <script src="js/ripple-config.js"></script>
+</body>
+
+</html>
