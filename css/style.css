@@ -1,5 +1,5 @@
 body {
-    /*overflow-x:hidden;*/
+    overflow: hidden;
 }
 
 .first_half {
@@ -12,6 +12,10 @@ p.email_instd {
     color: #4F4949;
     font-size: 1.3em;
     font-weight: bold;
+}
+
+span.glyphicon.glyphicon-comment.main_cht.nav_icons {
+    color: white;
 }
 
 
@@ -108,14 +112,16 @@ li:after {
     position: relative;
 }
 
-span.nav_cons{
-        position: relative;
+span.nav_cons {
+    position: relative;
     left: 1em;
 }
 
-span.nav_icons{
+span.nav_icons {
     color: #555252;
 }
+
+
 /*-------------------------------------*/
 
 div#exTab1 {
@@ -211,6 +217,8 @@ button.styl-material.btn2 {
     margin-left: 40%;
     margin-top: 2%;
 }
+
+
 /*------------------------------------Live Chat--------------------------------*/
 
 p.frst_para_lft {
@@ -224,7 +232,7 @@ p.frst_para_lft {
 }
 
 .live_chat_box {
-    border: 1px solid #1F9CE7;
+    border: 1px solid #2084BF;
     width: 76%;
     height: 20.2em;
     margin-top: .8em;
@@ -259,15 +267,16 @@ span.U_name {
 }
 
 p.nam_txt {
-    color: black;
+    color: #676464;
     /*font-size: 1.5em;*/
     font-weight: bold;
 }
 
 p.contnt_txt {
-    color: #878787;
+    color: #A9A7A7;
     position: relative;
     top: -3px;
+    text-align: center;
 }
 
 .contnt_msg {
@@ -308,16 +317,17 @@ span.ME_name {
 }
 
 p.nam_txt1 {
-    color: black;
+    color: #676464;
     /*font-size: 1.5em;*/
     font-weight: bold;
     position: relative;
     left: 7em;
 }
 
-.liv_cht_fl{
+.liv_cht_fl {
     margin-top: 5px;
 }
+
 footer.live_chat_footer {
     border: 1px solid none;
     height: 3.3em;
@@ -375,7 +385,8 @@ i.clk_mins1 {
 .frst_rit_row {
     border-left: 1px solid #CBCBCB;
     position: relative;
-    left: -20px
+    left: -20px;
+    margin-bottom: 1em;
 }
 
 .frst_rit_row1 {
@@ -389,9 +400,13 @@ i.clk_mins1 {
     position: relative;
     top: -11px;
     height: 14.35em;
-
+    left: 1px;
 }
 
+.dgh {
+    position: relative;
+    left: 4.4em;
+}
 
 
 /*::-webkit- scrollbar {
@@ -421,16 +436,19 @@ i.clk_mins1 {
 ::-webkit-scrollbar {
     width: 12px;
 }
- 
+
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px white;
+    /*background: red; */
+    /*border-radius: 10px;*/
 }
- 
+
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    /*border-radius: 10px;*/
+    -webkit-box-shadow: inset 0 0 6px black;
+    background: #5E5959;
 }
+
 
 /*----------------------------------Second tab(FAQ)-----------------------------------*/
 
@@ -446,7 +464,7 @@ i.clk_mins1 {
 
 .search .fa-search {
     position: absolute;
-    top: 13px;
+    top: 20px;
     left: 24px;
     font-size: 20px;
     color: #5E5E5E;
@@ -457,98 +475,183 @@ i.clk_mins1 {
     z-index: 1;
 }
 
-
-input.faq_input{
+input.faq_input {
     width: 80%;
     border-radius: 2em;
 }
 
-.scnd_lft_row{
+.scnd_lft_row {
     margin-left: 6em;
     margin-top: 5em;
 }
 
-i.foldr_icon{
-  padding: 8px 8px;
-  display: inline-block;
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
-  -moz-box-shadow: 0px 0px 2px #22aae2;
-  -webkit-box-shadow: 0px 0px 2px #22aae2;
-  box-shadow: 0px 0px 2px #22aae2;
-  color: #22aae2;
-  font-weight: bold;
-  margin-left: 3.5em;
-  margin-top: 6px;
-  /*background-color: skyblue;*/
+i.foldr_icon {
+    padding: 8px 8px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #22aae2;
+    -webkit-box-shadow: 0px 0px 2px #22aae2;
+    box-shadow: 0px 0px 2px #22aae2;
+    color: #22aae2;
+    font-weight: bold;
+    margin-left: 7.5em;
+    margin-top: 6px;
+    /*background-color: skyblue;*/
 }
 
-p.icon_contnt{
+p.icon_contnt {
     color: #22aae2;
     margin-top: 1em;
     position: relative;
     left: 4.5em;
 }
 
-p.reporting{
+p.reporting {
     position: relative;
-    left: 5.5em;
+    left: 6.6em;
 }
 
-.icons_bx{
-  margin-left: 5em;
+.icons_bx {
+    margin-left: 5em;
     margin-top: 1em;
-        margin-bottom: 1.3em;
+    margin-bottom: 1.3em;
 }
 
-a.linked_icon:hover{
+a.linked_icon:hover {
     text-decoration: none;
 }
 
-a.linked_icon:focus{
+a.linked_icon:focus {
     text-decoration: none;
 }
 
+
+/*
 i.glyphicon.glyphicon-pushpin.foldr_icon{
     font-size: 1.9em;
 }
+*/
 
+p.acnt_mngmnt {
+    position: relative;
+    left: 3.4em;
+}
 
-p.scnd_para_lft{
-        margin-left: -5em;
+p.scnd_para_lft {
+    margin-left: -5em;
     position: relative;
     left: 3em;
     top: 1em;
 }
 
- .secnd_bx1{
+.secnd_bx1 {
     border-left: 1px solid #D3D3D3;
     position: relative;
     left: 7em;
- }
-
-.secnd_bx2{
-position: relative;
-    left: -5em;
 }
 
-button#js-ripple-btn2{
+.secnd_bx2 {
+    position: relative;
+    left: -5em;
+    margin-bottom: 3.3em;
+}
+
+button#js-ripple-btn2 {
     margin-left: 2em;
     position: relative;
     top: 1em;
 }
 
-.hovr_efct:hover{
-    background-color: #F4F4F4;;
+.hovr_efct:hover {
+    background-color: #F4F4F4;
+    ;
 }
 
-.scnd_ful_box1{
-        border-bottom: 1px dotted #CECCCC;
+.scnd_ful_box1 {
+    border-bottom: 1px dotted #CECCCC;
     position: re;
     top: 6.8em;
     position: relative
 }
 
 
+/*--------------------------Third tab------------------------------------*/
 
+.alert.alert-success.fade.in {
+    width: 100%;
+    padding: 5px;
+    margin-top: 1em;
+    margin-left: -4em;
+}
+
+span.sucs_msg {
+    padding-left: 2em;
+}
+
+input.mail_bx {
+    /*background: #C7C5C5;*/
+    width: 78%;
+    margin-left: 2em;
+    height: 2.3em;
+    margin-top: -8px;
+}
+
+textarea#comment {
+    margin-left: 2em;
+    width: 78%;
+    margin-top: 1.2em;
+}
+
+input.hlp {
+    margin-top: 1.2em;
+}
+
+button#js-ripple-btn3 {
+    float: right;
+    /* margin-left: 0em; */
+    position: relative;
+    left: -8.5em;
+    margin-top: 1.2em;
+    margin-bottom: 2.3em;
+    padding: 3px 8px;
+    background: #22aae2;
+    color: white;
+}
+
+button#js-ripple-btn3:hover {
+    background-color: rgba(24, 188, 57, 0.28);
+}
+
+.thrd_tab {
+    border-left: 1px solid #C1C1C1;
+    position: relative;
+    left: -4.5em;
+}
+
+.alert-success {
+    background-color: rgba(24, 188, 57, 0.28);
+    border-color: rgba(24, 188, 57, 0.28);
+    color: #2EB057;
+}
+
+.close {
+    color: #988E8E;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.form-control:focus {
+    border-color: transparent;
+}
+
+input.form-control.mail_bx.mail_bx1 {
+    background-color: #CCCECF;
+    border-color: transparent;
+    color: #929597;
+}
+
+.last_tb{
+    margin-bottom: 1em;
+}
