@@ -20,11 +20,11 @@
             <div id="exTab1">
                 <ul class="nav nav-pills">
                     <li class="active">
-                        <a href="#1a" data-toggle="tab">Overview</a>
+                        <a href="#1a" data-toggle="tab"><span class="glyphicon glyphicon-comment nav_icons"></span><span class="nav_cons">Live Chat</span></a>
                     </li>
-                    <li><a href="#2a" data-toggle="tab">Using nav-pills</a>
+                    <li><a href="#2a" data-toggle="tab"><span class="glyphicon glyphicon-search nav_icons"></span><span class="nav_cons">FAQ</span></a>
                     </li>
-                    <li><a href="#3a" data-toggle="tab">Applying clearfix</a>
+                    <li><a href="#3a" data-toggle="tab"><span class="glyphicon glyphicon-envelope nav_icons"></span><span class="nav_cons">Mail Us</span></a>
                     </li>
                 </ul>
                 <div class="tab-content clearfix">
@@ -41,7 +41,7 @@
                                 </div>
                                 <div class="content">
                                     <!-- button component -->
-                                    <button id="js-ripple-btn" class="button styl-material btn1">
+                                    <button id="js-ripple-btn" class="button styl-material btn2">
                                         <i class="fa fa-envelope fa-1x" aria-hidden="true"></i> Write to us
                                         <svg class="ripple-obj" id="js-ripple">
                                             <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
@@ -55,29 +55,39 @@
                                     <div class="live_chat_box col-md-12 col-sm-12 col-xs-12">
                                         <p class="liv_cht">Live Chat</p>
                                         <div class="body_live_chat">
-                                        <div class="col-md-12 col-sm-12 col-xs-12">
-                                            <div class="col-md-2 nam_logo">
-                                                <span class="U_name">U</span>
+                                            <div class="col-md-12 col-sm-12 col-xs-12 liv_cht_fl">
+                                                <div class="col-md-2 nam_logo">
+                                                    <span class="U_name">U</span>
+                                                </div>
+                                                <div class="col-md-10 contnt_msg">
+                                                    <p class="text-center nam_txt">Squareloop Support <span class="pull-right mins"><i class="fa fa-clock-o clk_mins" aria-hidden="true"></i> 12 mins ago</span></p>
+                                                    <p class="contnt_txt">The digital marketing landscape is constantly changing. Stay current with the different roles, necessary skills, and various sectors </p>
+                                                </div>
                                             </div>
-                                            <div class="col-md-10 contnt_msg">
-                                                <p class="text-center nam_txt">Squareloop Support <span class="pull-right mins"><i class="fa fa-clock-o clk_mins" aria-hidden="true"></i> 12 mins ago</span></p>
-                                                <p class="contnt_txt">The digital marketing landscape is constantly changing. Stay current with the different roles, necessary skills, and various sectors </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12">
-                                            <div class="secnd_box">
-                                                <div class="scnd_ful_box">
-                                                    <div class="col-md-2 pull-right">
-                                                        <span class="ME_name">ME</span>
-                                                    </div>
-                                                    <div class="col-md-10 contnt_msg">
-                                                        <p class="text-center nam_txt1 ">Bhaumik Patel <span class="pull-left mins"><i class="fa fa-clock-o clk_mins1" aria-hidden="true"></i>12 mins ago</span></p>
-                                                        <p class="contnt_txt contnt_txt1">The digital marketing landscape is constantly changing. Stay current with the different roles, necessary skills, and various sectors </p>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div class="secnd_box">
+                                                    <div class="scnd_ful_box">
+
+                                                        <div class="col-md-2 pull-right">
+                                                            <span class="ME_name">ME</span>
+                                                        </div>
+                                                        <div class="col-md-10 contnt_msg">
+                                                            <p class="text-center nam_txt1 ">Bhaumik Patel <span class="pull-left mins"><i class="fa fa-clock-o clk_mins1" aria-hidden="true"></i>12 mins ago</span></p>
+                                                            <p class="contnt_txt contnt_txt1">The digital marketing landscape is constantly changing. Stay current with the different roles, necessary skills, and various sectors </p>
+                                                        </div>
+                                                    <div class="scnd_ful_box1"></div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        
+                                            <div class="col-md-12 col-sm-12 col-xs-12 liv_cht_fl">
+                                                <div class="col-md-2 nam_logo">
+                                                    <span class="U_name">U</span>
+                                                </div>
+                                                <div class="col-md-10 contnt_msg">
+                                                    <p class="text-center nam_txt">Squareloop Support <span class="pull-right mins"><i class="fa fa-clock-o clk_mins" aria-hidden="true"></i> 12 mins ago</span></p>
+                                                    <p class="contnt_txt">The digital marketing landscape is constantly changing. Stay current with the different roles, necessary skills, and various sectors </p>
+                                                </div>
+                                            </div>
                                         </div>
                                         <footer class="live_chat_footer">
                                             <form role="form">
@@ -107,11 +117,82 @@
                             </div>
                         </div>
                     </div>
+                    <!-- ---------------------------------------Second tab----------------------------------------- -->
                     <div class="tab-pane" id="2a">
-                        <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
+                        <div class="col-md-12 col-sm-12-col-xs-12">
+                            <div class="col-md-offset-1"></div>
+                            <div class="col-md-2 col-sm-12 col-xs-12 scnd_lft_row">
+                                <p class="text-center email_instd">Prefer email instead? </p>
+                                <div style="height: 0; width: 0; position: absolute; visibility: hidden;" aria-hidden="true">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+                                        <symbol id="ripply-scott2" viewBox="0 0 100 100">
+                                            <circle id="ripple-shape" cx="1" cy="1" r="1" />
+                                        </symbol>
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <!-- button component -->
+                                    <button id="js-ripple-btn2" class="button form_box styl-material">
+                                       <i class="fa fa-envelope fa-1x" aria-hidden="true"></i> Write to us
+                                        <svg class="ripple-obj" id="js-ripple2">
+                                            <use height="100" width="100" xlink:href="#ripply-scott2" class="js-ripple2"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <p class="text-center frst_para_lft scnd_para_lft">we are super quick in response to your queries </p>
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-9 secnd_bx1">
+                                <div class="col-md-12 secnd_bx2">
+                                    <div class="col-md-12">
+                                        <div class="search">
+                                            <span class="fa fa-search"></span>
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control faq_input live_cht_comnt" id="usr" placeholder="What can we help with you? Start typing quesyions...">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="row icons_bx">
+                                        <div class="col-md-offset-2"></div>
+                                        <div class="col-md-4 col-sm-3 col-xs-3 hovr_efct">
+                                            <a href="#" class="linked_icon"><i class="fa fa-folder fa-2x foldr_icon" aria-hidden="true"></i>
+                                <p class="icon_contnt">Sharing openings</p></a>
+                                        </div>
+                                        <div class="col-md-4 col-sm-3 col-xs-3 hovr_efct">
+                                            <a href="#" class="linked_icon"><i class="glyphicon glyphicon-pushpin foldr_icon" aria-hidden="true"></i>
+                                <p class="icon_contnt">Managing openings</p></a>
+                                        </div>
+                                        <div class="col-md-4 col-sm-3 col-xs-3 hovr_efct">
+                                            <a href="#" class="linked_icon"><i class="fa fa-file-text fa-2x foldr_icon" aria-hidden="true"></i>
+                                <p class="icon_contnt">Managing Candidates</p></a>
+                                        </div>
+                                        <div class="col-md-offset-1"></div>
+                                    </div>
+                                    <div class="row icons_bx">
+                                        <div class="col-md-offset-2"></div> 
+                                        <div class="col-md-4 col-sm-3 col-xs-3 hovr_efct">
+                                            <a href="#" class="linked_icon"><i class="fa fa-cog fa-2x foldr_icon" aria-hidden="true"></i>
+                                <p class="icon_contnt">Account Management</p></a>
+                                        </div>
+                                        <div class="col-md-4 col-sm-3 col-xs-3 hovr_efct">
+                                            <a href="#" class="linked_icon"><i class="fa fa-folder fa-2x foldr_icon" aria-hidden="true"></i>
+                                <p class="icon_contnt">Sourcing Candidates</p></a>
+                                        </div>
+                                        <div class="col-md-4 col-sm-3 col-xs-3 hovr_efct">
+                                            <a href="#" class="linked_icon"><i class="fa fa-folder fa-2x foldr_icon" aria-hidden="true"></i>
+                                <p class="icon_contnt reporting">Reporting </p></a>
+                                        </div>
+                                        <div class="col-md-offset-1"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-offset-1"></div>
+                        </div>
                     </div>
+                    <!-- -------------------------------------------Third Tab-------------------------------------- -->
                     <div class="tab-pane" id="3a">
-                        <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
+                         <!-- <a href="#" class="list-group-item list-group-item-success">First item</a> -->
                     </div>
                 </div>
             </div>
@@ -120,5 +201,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
     <script src="js/ripple-config.js"></script>
 </body>
+
 
 </html>
