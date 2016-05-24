@@ -1,3 +1,7 @@
+body{
+	overflow-x:hidden;
+}
+
 .first_half{
 	height: 24em;
 	background-color: #B2ADAD;
@@ -208,9 +212,11 @@ p.frst_para_lft{
 .live_chat_box{
 	border: 1px solid #1F9CE7;
     width: 76%;
-    height: 19.1em;
+    height: 20.2em;
     margin-top: .8em;
     border-radius: 7px;
+    padding: 0;
+    background-color: white;
 
 }
 
@@ -219,5 +225,147 @@ p.liv_cht{
     background: #1F9CE7;
     text-align: center;
     padding: 9px;
-    border-radius: 7.4px 7.4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+span.U_name{
+	padding: 15px 20px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+    color: black;
+    font-weight: bold;
+    background-color: skyblue;
+
+        /*position: absolute;
+    left: 2em;
+    top: 4em;*/
+}
+
+p.nam_txt{
+	color: black;
+	/*font-size: 1.5em;*/
+	font-weight: bold;
+
+}
+p.contnt_txt{
+	color: #878787;
+	position: relative;
+    top: -3px;
+}
+
+.contnt_msg{
+	padding: 0;
+}
+
+.nam_logo{
+	position: relative;
+	top: 5px;
+	left: -9px;
+}
+
+span.ME_name{
+	padding: 16px 16px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(240, 15, 15, 0.58);;
+
+}
+
+.secnd_box{
+	border-bottom: 1px dotted #CBC5C5;;
+	position: relative;
+	top: -8px;
+}
+
+.scnd_ful_box{
+	position: relative;
+	top: 8px;
+}
+
+p.nam_txt1{
+		color: black;
+	/*font-size: 1.5em;*/
+	font-weight: bold;
+	    position: relative;
+    left: 7em;
+}
+
+footer.live_chat_footer{
+border: 1px solid none;
+    height: 3.3em;
+    margin-top: -5.28%;
+    background-color: #DFDFDF;
+    border-radius: 0px 0px 7px 7px;
+
+}
+
+input.live_cht_comnt{
+	position: relative;
+    top: 2px;
+    left: 11px;
+    outline: none;
+    /*border-radius: 5px;*/
+}
+
+button#js-ripple-btn1{
+float: right;
+    position: relative;
+   top: -2.7em;
+    left: -1em;
+    padding: 5px 13px;
+    background: #EB9A33;
+    color: white;
+}
+
+button#js-ripple-btn1:hover{
+	background-color: #1F9CE7;
+}
+
+span.mins{
+	color: #D3D2D2;
+    font-size: 12px;
+}
+
+p.contnt_txt1{
+	position: relative;left: 8px;
+}
+
+
+i.clk_mins{
+	color: gray;
+}
+
+i.clk_mins1{
+	color: gray;
+	position: relative;
+	left: -3px;
+}
+
+.frst_rit_row{
+	border-left: 1px solid #CBCBCB;
+	position: relative;
+    left: -20px
+}
+
+.frst_rit_row1{
+	position: relative;
+	left: 2.3em;
+}
+.body_live_chat{
+	overflow-y: scroll;
+	/*overflow-x: hidden;*/
+	position: relative;
+	top: -9px;
 }
