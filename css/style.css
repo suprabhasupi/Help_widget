@@ -14,8 +14,14 @@ p.email_instd {
     font-weight: bold;
 }
 
+.frst_tb{
+    margin-top: 1em;
+}
 span.glyphicon.glyphicon-comment.main_cht.nav_icons {
     color: white;
+    position: relative;
+    left: 0px;
+    top: 2px;
 }
 
 
@@ -32,7 +38,7 @@ span.glyphicon.glyphicon-comment.main_cht.nav_icons {
     color: white;
     background-color: #DFDFDF;
     padding: 5px 15px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     padding: 0;
 }
 
@@ -56,6 +62,14 @@ span.glyphicon.glyphicon-comment.main_cht.nav_icons {
     border-radius: 4px 4px 0 0;
 }
 
+#exTab1 .nav-pills > li > a:hover{
+    background-color: transparent;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+    background-color: transparent;
+    color: black;
+}
 
 /*#exTab3 .tab-content {
   background-color: #DFDFDF;
@@ -67,10 +81,12 @@ span.glyphicon.glyphicon-comment.main_cht.nav_icons {
     overflow: hidden;
     transform: scaleY(-1);
     color: black;
-    border-left: 1px solid black;
+    border-left: 1px solid #CFCCCC;
     position: relative;
     top: 2px;
     z-index: 0;
+    height: 2.5em;
+    border-radius: 0px 0px 10px 6px;
 }
 
 .nav.nav-pills li.active {
@@ -90,7 +106,7 @@ li:after {
     left: 0;
     width: 100%;
     height: 100%;
-    border: solid 1px black;
+    border: solid 1px #CFCCCC;
     transform: scaleY(-1);
     -webkit-transform-origin: 100% 0;
     -ms-transform-origin: 100% 0;
@@ -99,6 +115,7 @@ li:after {
     -ms-transform: skew(-45deg);
     transform: skew(-45deg);
     z-index: 0;
+    border-radius: 0px 0px 6px 6px;
 }
 
 #exTab1 .nav-pills > li > a {
@@ -114,11 +131,15 @@ li:after {
 
 span.nav_cons {
     position: relative;
-    left: 1em;
+    left: 1.2em;
+    top: 3px;
 }
 
 span.nav_icons {
     color: #555252;
+    position: relative;
+    top: 7px;
+    left: 10px;
 }
 
 
@@ -133,7 +154,7 @@ div#exTab1 {
 
 .nav {
     margin-bottom: 1px;
-    padding-left: 55%;
+    padding-left: 60.5%;
     list-style: none;
 }
 
@@ -193,6 +214,7 @@ button {
     z-index: 0;
     width: 100%;
     fill: #1c9cd1;
+        border-radius: 5px;
 }
 
 .ripple-obj1 {
@@ -203,9 +225,20 @@ button {
     left: 0;
     z-index: 0;
     width: 100%;
-    fill: #7c7d7d;
+    fill: #1c9cd1;
+        border-radius: 5px;
 }
-
+.ripple-obj4{
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    fill: #17CC65;
+        border-radius: 5px;
+}
 button.styl-material.btn1 {
     /* color: rebeccapurple; */
     margin-left: 18%;
@@ -341,6 +374,7 @@ input.live_cht_comnt {
     top: 9px;
     left: 11px;
     outline: none;
+    box-shadow: 0px 0px 3px 0px #383131;
     /*border-radius: 5px;*/
 }
 
@@ -478,6 +512,7 @@ i.clk_mins1 {
 input.faq_input {
     width: 80%;
     border-radius: 2em;
+    box-shadow: 0px 0px 3px 1px #CCC8C8;
 }
 
 .scnd_lft_row {
@@ -519,6 +554,9 @@ p.reporting {
     margin-bottom: 1.3em;
 }
 
+.icns_bx1{
+    margin-top: 6em;
+}
 a.linked_icon:hover {
     text-decoration: none;
 }
@@ -566,7 +604,9 @@ button#js-ripple-btn2 {
 
 .hovr_efct:hover {
     background-color: #F4F4F4;
-    ;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+
+
 }
 
 .scnd_ful_box1 {
@@ -596,12 +636,14 @@ input.mail_bx {
     margin-left: 2em;
     height: 2.3em;
     margin-top: -8px;
+    box-shadow: 0px 0px 3px 1px #CCC8C8;
 }
 
 textarea#comment {
     margin-left: 2em;
     width: 78%;
     margin-top: 1.2em;
+    box-shadow: 0px 0px 3px 0px #383131;
 }
 
 input.hlp {
@@ -613,11 +655,12 @@ button#js-ripple-btn3 {
     /* margin-left: 0em; */
     position: relative;
     left: -8.5em;
-    margin-top: 1.2em;
+    margin-top: 1.9em;
     margin-bottom: 2.3em;
     padding: 3px 8px;
     background: #22aae2;
     color: white;
+    margin-bottom: 4em;
 }
 
 button#js-ripple-btn3:hover {
@@ -631,9 +674,9 @@ button#js-ripple-btn3:hover {
 }
 
 .alert-success {
-    background-color: rgba(24, 188, 57, 0.28);
-    border-color: rgba(24, 188, 57, 0.28);
-    color: #2EB057;
+    background-color: rgba(106, 255, 13, 0.1);
+    border-color: rgba(106, 255, 13, 0.1);
+    color: #46965F;
 }
 
 .close {
@@ -652,6 +695,6 @@ input.form-control.mail_bx.mail_bx1 {
     color: #929597;
 }
 
-.last_tb{
-    margin-bottom: 1em;
-}
+
+ /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+
