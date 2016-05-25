@@ -4,9 +4,7 @@
 <head>
     <title>Help Widget</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /> -->
     <link rel="stylesheet" type="text/css" href="css/font.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Compiled and minified JavaScript -->
@@ -26,6 +24,7 @@
                     </li>
                     <li><a href="#3a" data-toggle="tab"><span class="glyphicon glyphicon-envelope nav_icons"></span><span class="nav_cons">Mail Us</span></a>
                     </li>
+                    <div class="nav_close"><i class="fa fa-times rmv_icon" aria-hidden="true"></i></div>
                 </ul>
                 <div class="tab-content clearfix">
                     <div class="tab-pane active" id="1a">
@@ -118,7 +117,7 @@
                     </div>
                     <!-- ---------------------------------------Second tab----------------------------------------- -->
                     <div class="tab-pane" id="2a">
-                        <div class="col-md-12 col-sm-12-col-xs-12">
+                        <div class="col-md-12 col-sm-12-col-xs-12 faq_tab_menu">
                             <div class="col-md-offset-1"></div>
                             <div class="col-md-2 col-sm-12 col-xs-12 scnd_lft_row">
                                 <p class="text-center email_instd">Prefer email instead? </p>
@@ -234,6 +233,25 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var flag = false;
+    $(".rmv_icon").click(function(){
+        if (flag){
+
+        $("#exTab1").animate({top: "19.2em"},1500);
+   $(this).css({ WebkitTransform: 'rotate(0deg)'});
+   flag = false;
+}
+else{ 
+       $("#exTab1").animate({top: "41.2em"},1500);
+   $(this).css({ WebkitTransform: 'rotate(45deg)'});
+   flag = true;
+}
+
+    });
+    });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
     <script src="js/ripple-config.js"></script>
 </body>
